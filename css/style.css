@@ -1128,6 +1128,15 @@
 
 	}
 
+	nav a:nth-child(3){
+		display: none;
+	}
+
+	nav a:nth-child(4){
+		display: none;
+	}
+
+
 	nav h1.name{
 	font-size: 15px;
 	color: #fff;
