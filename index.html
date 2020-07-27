@@ -8,12 +8,12 @@
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<link rel="shortcut icon" type="image/png" href="photos/T.png">
 
 
 </head>
-<body>
+<body onload="myFunction()">
+	<div id="loading"></div>
 
 	<section id="home">
 
@@ -196,7 +196,10 @@
 		<div class="card5">
 			<h2>Web Dev Worksop</h2>
 			<h3>June 2018</h3>
+
+			<p>Organised and conducted a three-week summer workshop on web development and logic development through Scratch for the younger students. <br><br>It was a very enriching experience and also helped me gain knowledge and interest in Web 
 			<p>Organised and conducted a three-week summer workshop on web development and logic development through Scratch for the younger students. It was an enriching experience and it also helped me to gain a lot more interset as well as knowledge in web development.</p>
+
 		</div>
 
 
@@ -260,7 +263,11 @@
               <q>I'm a web developer too and the portfolio had an amazing color scheme combined with beautiful gradients.</q> 
               <span class="author">
                 <img src="">
+<<<<<<< HEAD
+                Pranshu 
+=======
                 Krish 
+>>>>>>> a8632d8419398e9684d3dadfe91fa7d905a90962
               </span>
             </p>
            </li>
@@ -285,7 +292,15 @@
 
 	</section>
 
+	<script>
+		
+		var preloader = document.getElementById('loading');
 
+		function myFunction(){
+			preloader.style.display = 'none';
+		}
+
+	</script>
 
 </body>
 </html
